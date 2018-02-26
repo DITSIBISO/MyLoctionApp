@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">MyLoctionApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="loading">Loading</string>
+
+    <string name="action_feedback">Feedback</string>
+    <string name="action_invite">Invite</string>
+    <string name="action_call">Call</string>
+    <string name="action_logout">LogOut</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!-- To be overriden by the app -->
+    <string name="flurry_key" translatable="false">OVERRIDEME</string>
+
+    <string name="facebook_app_namespace" translatable="false">OVERRIDEME</string>
+
+    <string name="invite_friends_market_url" translatable="false">OVERRIDEME</string>
+    <string name="invite_friends_share_other_message">My awesome app: %s</string>
+    <!-- /END To be overriden by the app -->
+
+    <string name="invite_friends_header">Tell your friends about the app, and have fun together!</string>
+
+    <string name="invite_friends_button_whatsapp">WhatsApp</string>
+    <string name="invite_friends_button_facebook">Facebook</string>
+    <string name="invite_friends_button_other">Other</string>
+
+    <string name="invite_friends_footer"><u>No, thanks</u></string>
+
+    <string name="invite_friends_toast_after_share">You are sending the Google Play url</string>
+    <string name="invite_friends_facebook_dialog">Your voice, but funnier</string>
+    <string name="invite_friends_share_chooser">Share Google Play URL</string>
+
+    <string name="title_activity_music">music</string>
+    <string name="title_activity_facebook">facebook</string>
+    <string name="facebook_app_id">493087414176412</string>
+
+    <string name="action_deep_link">
+        com.google.android.gms.samples.appinvite.DEEP_LINK_ACTION
+    </string>
+
+    <string name="invite">Send invitations!</string>
+    <string name="welcome">Invites</string>
+    <string name="referrer_hint">Deep link not provided</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <string name="invite_friends">Invite Friends</string>
+
+    <string name="invitation_title">Send App Invite Quickstart Invitation</string>
+    <string name="invitation_message">This app is terrific, give it a try and get $5 off!</string>
+    <string name="invitation_deep_link">http://example.com/offer/five_dollar_offer</string>
+    <string name="invitation_custom_image">https://developers.google.com/identity/images/g-logo.png</string>
+    <string name="invitation_cta">Install!</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+
+    <string name="send_failed">Sending invitations failed</string>
+    <string name="invite_dialog_title">You got an invitation!</string>
+
+    <string name="google_play_services_error">Google Play Services Error</string>
+
+    <string name="WELCOME">Preferences Example</string>
+    <string name="list_size">List Size</string>
+    <string name="settings">Settings</string>
+    <string name="settings_summary">Example of Preferences</string>
+    <string name="pref_show_delete">Show delete button?</string>
+    <string name="pref_list_limit">List Size</string>
+    <string name="pref_summary_list_size">Maximun rows to be shown in a list page</string>
+    <string name="pref_color_theme">Color theme</string>
+    <string name="pref_color_theme_value">#87CEEB</string>
+
+    <string-array name="pref_color_theme_entries">
+        <item>Black</item>
+        <item>Sky Blue</item>
+        <item>Red</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="pref_color_theme_values">
+        <item>#000000</item>
+        <item>#87CEEB</item>
+        <item>#FF0000</item>
+        <item>#FFFFFF</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>

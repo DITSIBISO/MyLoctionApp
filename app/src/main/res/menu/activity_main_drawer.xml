@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_meeting"
+            android:icon="@drawable/ic_event_2x"
+            android:title="Meetings" />
+        <item
+            android:id="@+id/nav_lates_news"
+            android:icon="@drawable/ic_info"
+            android:title="Latest News" />
+        <item
+            android:id="@+id/nav_report_issues"
+            android:icon="@drawable/ic_report_problem"
+            android:title="Report Issues" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Video" />
+
+
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_add_location_48pt"
+            android:title="Maps" />
+
+    </group>
+
+    <item android:title="Event Manager">
+        <menu>
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/ic_verified_user"
+                android:title="Log in" />
+            <item
+                android:id="@+id/nav_log_in"
+                android:icon="@drawable/ic_people_black_"
+                android:title="Admin" />
+
+        </menu>
+    </item>
+
+</menu>

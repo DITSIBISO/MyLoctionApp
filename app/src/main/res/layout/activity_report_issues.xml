@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical"
+    tools:context="com.example.android.myloctionapp.ReportIssuesActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:id="@+id/im1"
+            android:background="@drawable/community">
+
+        </ImageView>
+    </FrameLayout>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type name."
+        android:inputType="textPersonName"
+        android:textColor="#000"
+        android:background="#f0f0f4"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type address."
+        android:inputType="text"
+        android:textColor="#000"
+        android:background="#f0f0f4"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/problems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type report issue."
+        android:inputType="text"
+        android:textColor="#000"
+        android:background="#f0f0f4"
+        android:padding="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp">
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:background="@drawable/oval"
+            android:drawableTop="@drawable/ic_report"
+            android:paddingLeft="10dp"
+            android:textColor="#795548"
+            android:text="Report" />
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:background="@drawable/oval"
+            android:drawableTop="@drawable/ic_view_list"
+            android:paddingLeft="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:textColor="#795548"
+            android:text="View" />
+    </LinearLayout>
+
+
+</LinearLayout>

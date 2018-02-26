@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "121857421257",
+    "firebase_url": "https://myloctionapp.firebaseio.com",
+    "project_id": "myloctionapp",
+    "storage_bucket": "myloctionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121857421257:android:8c8c4a65faed277f",
+        "android_client_info": {
+          "package_name": "com.example.android.myloctionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121857421257-jh60fq2hhubfmidkl54hd1jlk7e29pqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.myloctionapp",
+            "certificate_hash": "c6f6e402b04262a9819e58af2ca0f2ea62b05be1"
+          }
+        },
+        {
+          "client_id": "121857421257-g8l29flp23c2kejhgi65oo2tur1kr7as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyzKqsJWeWZeD09W0ARk3tB85PKn4dx7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121857421257-g8l29flp23c2kejhgi65oo2tur1kr7as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

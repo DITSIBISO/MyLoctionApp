@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4DB6AC</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#26A69A</color>
+
+    <color name="bg_color">#e8edf3</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="invite_friends_header_text">#2980B9</color>
+    <color name="invite_friends_close_text">#AAAAAA</color>
+
+    <color name="welcome_text_color">#FF0000</color>
+    <color name="empty_list_color">#25383C</color>
+</resources>

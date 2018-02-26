@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings"
+    android:summary="@string/settings_summary" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="perf_show_delete"
+        android:title="@string/pref_show_delete" />
+
+    <EditTextPreference
+        android:key="pref_list_limit"
+        android:summary="@string/pref_summary_list_size"
+        android:title="@string/pref_list_limit" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_color_theme_value"
+        android:dialogTitle="@string/pref_color_theme"
+        android:entries="@array/pref_color_theme_entries"
+        android:entryValues="@array/pref_color_theme_values"
+        android:key="pref_syncConnectionType"
+        android:title="@string/pref_color_theme" />
+
+</PreferenceScreen>
